@@ -10,6 +10,7 @@ export const TaskListComponent = () =>{
         console.log('Cambiando estado de la tarea con id: ', id)
     }
 
+    changeState(true)
     return(
         <div>
             <div>
