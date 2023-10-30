@@ -12,7 +12,10 @@ import React, { useState, useContext } from "react"
  * Dispone de un contecto que va a terner un valor 
  * que recibe del componente padre
  */
-const miContexto = React.createContext({});
+const miContexto = React.createContext({
+    token: "",
+    sesion: 0
+});
 const Component1 = () => {
     // inicializamos un stado vacio que va a rellenarse con los
     // datos que nos lleguen del componente padre
